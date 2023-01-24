@@ -13,8 +13,8 @@ export default {
 <template>
   <div>
     <NavbarItem />
-    <FooterItem />
     <router-view class="container" />
+    <FooterItem />
   </div>
 </template>
 
