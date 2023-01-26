@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <nav id="nav">
     <router-link to="/">
       <img src="/img/patilogo.ong" alt="pati">
     </router-link>
@@ -8,9 +8,9 @@
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
       <router-link to="/about">Entrar</router-link>
-      <router-link to="/about">Cadastrar</router-link>
+      <router-link to="/register">Cadastrar</router-link>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script lang="ts">
