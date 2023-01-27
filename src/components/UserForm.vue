@@ -65,9 +65,8 @@ export default {
       email: null,
       password: null,
       confirmpassword: null,
-      msg: null,
-      msgClass: null,
-    }
+      btnText: "Cadastrar",
+    };
   }
 };
 

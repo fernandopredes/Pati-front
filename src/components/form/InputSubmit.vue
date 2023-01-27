@@ -3,12 +3,19 @@
 </template>
 
 <script lang="ts">
-export default {
-  name: "InputSubmit",
+import { defineComponent } from 'vue';
+
+const MyComponent = defineComponent({
   props: {
-    text: "",
+    text: {
+      type: String,
+      default: "",
+    },
   },
-};
+});
+
+export default MyComponent
+
 </script>
 
 <style scoped>
