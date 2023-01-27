@@ -52,9 +52,25 @@
 </template>
 
 <script lang="ts">
+import InputSubmit from "./form/InputSubmit.vue";
 export default {
   name: "UserForm",
+  components: {
+    InputSubmit,
+  },
+  data() {
+    return {
+      id: null,
+      name: null,
+      email: null,
+      password: null,
+      confirmpassword: null,
+      msg: null,
+      msgClass: null,
+    }
+  }
 };
+
 </script>
 
 <style scoped>
