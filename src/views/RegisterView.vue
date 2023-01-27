@@ -1,13 +1,17 @@
 <template>
   <div class="register">
     <h1>Criar conta</h1>
-    <p>formulário</p>
+    <UserForm />
   </div>
 </template>
 
 <script lang="ts">
+import UserForm from "../components/UserForm.vue";
 export default {
   name: "RegisterView",
+  components: {
+    UserForm,
+  },
 };
 </script>
 
